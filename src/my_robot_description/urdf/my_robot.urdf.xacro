@@ -6,6 +6,7 @@
     <xacro:property name="wheel_radius" value="0.1"/>
     <xacro:property name="wheel_length" value="0.05"/>
     <xacro:property name="wheel_separation" value="0.4"/>
+    <xacro:property name="wheelbase" value="0.3"/>
 
     <!-- Base Link -->
     <link name="base_link">
@@ -37,7 +38,7 @@
     </link>
 
     <!-- Wheel Macro -->
-    <xacro:macro name="wheel" params="name y_pos">
+    <xacro:macro name="wheel" params="name x_pos y_pos">
 
         <link name="${name}">
 
@@ -71,7 +72,7 @@
             <parent link="base_link"/>
             <child link="${name}"/>
 
-            <origin xyz="0 ${y_pos} 0.1"
+            <origin xyz="${x_pos} ${y_pos} 0.1"
                     rpy="1.5708 0 0"/>
 
             <axis xyz="0 0 1"/>
@@ -80,12 +81,21 @@
 
     </xacro:macro>
 
-    <!-- Create Left Wheel -->
-    <xacro:wheel name="left_wheel"
+    <!-- Create Four Wheels -->
+    <xacro:wheel name="front_left_wheel"
+                 x_pos="${wheelbase/2}"
                  y_pos="${wheel_separation/2}"/>
 
-    <!-- Create Right Wheel -->
-    <xacro:wheel name="right_wheel"
+    <xacro:wheel name="front_right_wheel"
+                 x_pos="${wheelbase/2}"
+                 y_pos="${-wheel_separation/2}"/>
+
+    <xacro:wheel name="rear_left_wheel"
+                 x_pos="${-wheelbase/2}"
+                 y_pos="${wheel_separation/2}"/>
+
+    <xacro:wheel name="rear_right_wheel"
+                 x_pos="${-wheelbase/2}"
                  y_pos="${-wheel_separation/2}"/>
 
 </robot>
