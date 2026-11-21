@@ -7,17 +7,25 @@ from launch_ros.parameter_descriptions import ParameterValue
 
 def generate_launch_description():
 
+    pkg_share = FindPackageShare('my_robot_description')
+
     robot_description = ParameterValue(
         Command([
             'xacro ',
             PathJoinSubstitution([
-                FindPackageShare('my_robot_description'),
+                pkg_share,
                 'urdf',
                 'my_robot.urdf.xacro'
             ])
         ]),
         value_type=str
     )
+
+    rviz_config = PathJoinSubstitution([
+        pkg_share,
+        'config',
+        'display.rviz'
+    ])
 
     return LaunchDescription([
 
@@ -36,10 +44,11 @@ def generate_launch_description():
             executable='joint_state_publisher_gui'
         ),
 
-        # RViz
+        # RViz with RobotModel + base_link fixed frame
         Node(
             package='rviz2',
             executable='rviz2',
+            arguments=['-d', rviz_config],
             output='screen'
         )
 
