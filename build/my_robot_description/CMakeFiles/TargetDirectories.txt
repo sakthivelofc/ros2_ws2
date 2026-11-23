@@ -1,0 +1,9 @@
+/home/spotless/ros2_ws2/build/my_robot_description/CMakeFiles/uninstall.dir
+/home/spotless/ros2_ws2/build/my_robot_description/CMakeFiles/my_robot_description_uninstall.dir
+/home/spotless/ros2_ws2/build/my_robot_description/CMakeFiles/test.dir
+/home/spotless/ros2_ws2/build/my_robot_description/CMakeFiles/edit_cache.dir
+/home/spotless/ros2_ws2/build/my_robot_description/CMakeFiles/rebuild_cache.dir
+/home/spotless/ros2_ws2/build/my_robot_description/CMakeFiles/list_install_components.dir
+/home/spotless/ros2_ws2/build/my_robot_description/CMakeFiles/install.dir
+/home/spotless/ros2_ws2/build/my_robot_description/CMakeFiles/install/local.dir
+/home/spotless/ros2_ws2/build/my_robot_description/CMakeFiles/install/strip.dir
