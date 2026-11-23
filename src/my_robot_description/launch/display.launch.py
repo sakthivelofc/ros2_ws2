@@ -38,13 +38,23 @@ def generate_launch_description():
             }]
         ),
 
+        # Provide odom -> base_link so RViz Fixed Frame "odom" works without Gazebo
+        Node(
+            package='tf2_ros',
+            executable='static_transform_publisher',
+            arguments=[
+                '--frame-id', 'odom',
+                '--child-frame-id', 'base_footprint',
+            ],
+        ),
+
         # Joint State Publisher GUI
         Node(
             package='joint_state_publisher_gui',
             executable='joint_state_publisher_gui'
         ),
 
-        # RViz with RobotModel + base_link fixed frame
+        # RViz with RobotModel
         Node(
             package='rviz2',
             executable='rviz2',

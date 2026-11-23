@@ -1,0 +1,38 @@
+[0.014s] Invoking command in '/home/spotless/ros2_ws2/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spotless/spotbot_ws/install/tower_bot_perception:/home/spotless/spotbot_ws/install/tower_bot_mqtt:/home/spotless/spotbot_ws/install/tower_bot_gui:/home/spotless/spotbot_ws/install/tower_bot_control:/home/spotless/spotbot_ws/install/tower_bot_api:/home/spotless/ynot_ws/install/led_project:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/spotless/ros2_ws2/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/spotless/ros2_ws2/install/my_robot_description
+[0.317s] -- The C compiler identification is GNU 13.3.0
+[0.490s] -- The CXX compiler identification is GNU 13.3.0
+[0.514s] -- Detecting C compiler ABI info
+[0.626s] -- Detecting C compiler ABI info - done
+[0.633s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.634s] -- Detecting C compile features
+[0.635s] -- Detecting C compile features - done
+[0.644s] -- Detecting CXX compiler ABI info
+[0.745s] -- Detecting CXX compiler ABI info - done
+[0.752s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.752s] -- Detecting CXX compile features
+[0.752s] -- Detecting CXX compile features - done
+[0.768s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.947s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.134s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.278s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.278s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.280s] -- Added test 'lint_cmake' to check CMake code style
+[1.283s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.285s] -- Added test 'xmllint' to check XML markup files
+[1.288s] -- Configuring done (1.2s)
+[1.291s] -- Generating done (0.0s)
+[1.293s] -- Build files have been written to: /home/spotless/ros2_ws2/build/my_robot_description
+[1.323s] Invoked command in '/home/spotless/ros2_ws2/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spotless/spotbot_ws/install/tower_bot_perception:/home/spotless/spotbot_ws/install/tower_bot_mqtt:/home/spotless/spotbot_ws/install/tower_bot_gui:/home/spotless/spotbot_ws/install/tower_bot_control:/home/spotless/spotbot_ws/install/tower_bot_api:/home/spotless/ynot_ws/install/led_project:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/spotless/ros2_ws2/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/spotless/ros2_ws2/install/my_robot_description
+[1.324s] Invoking command in '/home/spotless/ros2_ws2/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spotless/spotbot_ws/install/tower_bot_perception:/home/spotless/spotbot_ws/install/tower_bot_mqtt:/home/spotless/spotbot_ws/install/tower_bot_gui:/home/spotless/spotbot_ws/install/tower_bot_control:/home/spotless/spotbot_ws/install/tower_bot_api:/home/spotless/ynot_ws/install/led_project:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/spotless/ros2_ws2/build/my_robot_description -- -j12 -l12
+[1.369s] Invoked command in '/home/spotless/ros2_ws2/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spotless/spotbot_ws/install/tower_bot_perception:/home/spotless/spotbot_ws/install/tower_bot_mqtt:/home/spotless/spotbot_ws/install/tower_bot_gui:/home/spotless/spotbot_ws/install/tower_bot_control:/home/spotless/spotbot_ws/install/tower_bot_api:/home/spotless/ynot_ws/install/led_project:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/spotless/ros2_ws2/build/my_robot_description -- -j12 -l12
+[1.370s] Invoking command in '/home/spotless/ros2_ws2/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spotless/spotbot_ws/install/tower_bot_perception:/home/spotless/spotbot_ws/install/tower_bot_mqtt:/home/spotless/spotbot_ws/install/tower_bot_gui:/home/spotless/spotbot_ws/install/tower_bot_control:/home/spotless/spotbot_ws/install/tower_bot_api:/home/spotless/ynot_ws/install/led_project:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/spotless/ros2_ws2/build/my_robot_description
+[1.379s] -- Install configuration: ""
+[1.379s] -- Installing: /home/spotless/ros2_ws2/install/my_robot_description/share/my_robot_description/urdf
+[1.379s] -- Installing: /home/spotless/ros2_ws2/install/my_robot_description/share/my_robot_description/urdf/my_robot.urdf.xacro
+[1.379s] [31mCMake Error at cmake_install.cmake:46 (file):
+[1.379s]   file INSTALL cannot find
+[1.379s]   "/home/spotless/ros2_ws2/src/my_robot_description/config": No such file or
+[1.379s]   directory.
+[1.379s] 
+[1.379s] [0m
+[1.380s] Invoked command in '/home/spotless/ros2_ws2/build/my_robot_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spotless/spotbot_ws/install/tower_bot_perception:/home/spotless/spotbot_ws/install/tower_bot_mqtt:/home/spotless/spotbot_ws/install/tower_bot_gui:/home/spotless/spotbot_ws/install/tower_bot_control:/home/spotless/spotbot_ws/install/tower_bot_api:/home/spotless/ynot_ws/install/led_project:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/spotless/ros2_ws2/build/my_robot_description

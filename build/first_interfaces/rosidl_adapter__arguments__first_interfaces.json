@@ -1,0 +1,6 @@
+{
+  "package_name": "first_interfaces",
+  "non_idl_tuples": [
+    "/home/spotless/ros2_ws2/src/first_interfaces:srv/AddTwoNumbers.srv"
+  ]
+}
