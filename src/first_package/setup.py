@@ -32,6 +32,7 @@ setup(
         'service_client = first_package.service_client:main',
         'publisher = first_package.publisher:main',
         'subscriber = first_package.subscriber:main',
+        'parameter = first_package.parameter:main',
 
         ],
     },

@@ -1,9 +1,0 @@
-/home/spotless/ros2_ws2/build/ros2_fundamentals_examples/CMakeFiles/uninstall.dir
-/home/spotless/ros2_ws2/build/ros2_fundamentals_examples/CMakeFiles/ros2_fundamentals_examples_uninstall.dir
-/home/spotless/ros2_ws2/build/ros2_fundamentals_examples/CMakeFiles/test.dir
-/home/spotless/ros2_ws2/build/ros2_fundamentals_examples/CMakeFiles/edit_cache.dir
-/home/spotless/ros2_ws2/build/ros2_fundamentals_examples/CMakeFiles/rebuild_cache.dir
-/home/spotless/ros2_ws2/build/ros2_fundamentals_examples/CMakeFiles/list_install_components.dir
-/home/spotless/ros2_ws2/build/ros2_fundamentals_examples/CMakeFiles/install.dir
-/home/spotless/ros2_ws2/build/ros2_fundamentals_examples/CMakeFiles/install/local.dir
-/home/spotless/ros2_ws2/build/ros2_fundamentals_examples/CMakeFiles/install/strip.dir
