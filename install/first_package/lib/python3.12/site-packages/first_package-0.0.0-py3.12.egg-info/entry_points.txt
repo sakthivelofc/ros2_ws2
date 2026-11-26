@@ -1,0 +1,6 @@
+[console_scripts]
+parameter = first_package.parameter:main
+publisher = first_package.publisher:main
+service_client = first_package.service_client:main
+service_server = first_package.service_server:main
+subscriber = first_package.subscriber:main

@@ -2,7 +2,13 @@ import os
 
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
-from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription, OpaqueFunction, TimerAction
+from launch.actions import (
+    DeclareLaunchArgument,
+    IncludeLaunchDescription,
+    OpaqueFunction,
+    SetEnvironmentVariable,
+    TimerAction,
+)
 from launch.conditions import IfCondition
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import Command, LaunchConfiguration
@@ -40,9 +46,11 @@ def _launch_setup(context, *args, **kwargs):
         package='robot_state_publisher',
         executable='robot_state_publisher',
         name='robot_state_publisher',
+        namespace='my_robot',
         output='screen',
         parameters=[{
             'robot_description': robot_description,
+            'frame_prefix': 'my_robot/',
             'use_sim_time': use_sim_time,
         }],
     )
@@ -55,8 +63,9 @@ def _launch_setup(context, *args, **kwargs):
                 executable='create',
                 output='screen',
                 arguments=[
+                    '-world', 'my_world',
                     '-name', 'my_robot',
-                    '-topic', 'robot_description',
+                    '-topic', '/my_robot/robot_description',
                     '-x', '-8.0',
                     '-y', '0.0',
                     '-z', '0.01',
@@ -77,7 +86,7 @@ def _launch_setup(context, *args, **kwargs):
             '/world/my_world/model/my_robot/joint_state@sensor_msgs/msg/JointState[gz.msgs.Model',
         ],
         remappings=[
-            ('/world/my_world/model/my_robot/joint_state', '/joint_states'),
+            ('/world/my_world/model/my_robot/joint_state', '/my_robot/joint_states'),
         ],
         parameters=[{'use_sim_time': use_sim_time}],
     )
@@ -96,6 +105,10 @@ def _launch_setup(context, *args, **kwargs):
 
 def generate_launch_description():
     return LaunchDescription([
+        # gz-transport ignores ROS_DOMAIN_ID. Without a private partition the
+        # /world/my_world/create call is answered by another Gazebo on this
+        # network, the robot is never spawned here, and DiffDrive does not load.
+        SetEnvironmentVariable('GZ_PARTITION', 'my_robot'),
         DeclareLaunchArgument(
             'rviz',
             default_value='true',

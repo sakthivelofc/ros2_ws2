@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/spotless/ros2_ws2/build/first_interfaces/rosidl_generator_py/first_interfaces/first_interfaces_s__rosidl_typesupport_c.so" "TARGETS" "first_interfaces_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/first_interfaces")

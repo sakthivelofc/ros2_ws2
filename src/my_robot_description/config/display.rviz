@@ -35,10 +35,10 @@ Visualization Manager:
       Description Source: Topic
       Description Topic:
         Depth: 5
-        Durability Policy: Volatile
+        Durability Policy: Transient Local
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /robot_description
+        Value: /my_robot/robot_description
       Enabled: true
       Links:
         All Links Enabled: true
@@ -80,28 +80,28 @@ Visualization Manager:
         Inertia: false
         Mass: false
       Name: RobotModel
-      TF Prefix: ""
+      TF Prefix: my_robot
       Update Interval: 0
       Value: true
       Visual Enabled: true
     - Class: rviz_default_plugins/TF
       Enabled: true
       Filter (blacklist): ""
-      Filter (whitelist): ""
+      Filter (whitelist): my_robot/.*
       Frame Timeout: 15
       Frames:
         All Enabled: true
-        base_footprint:
+        my_robot/base_footprint:
           Value: true
-        base_link:
+        my_robot/base_link:
           Value: true
-        front_left_wheel:
+        my_robot/front_left_wheel:
           Value: true
-        front_right_wheel:
+        my_robot/front_right_wheel:
           Value: true
-        rear_left_wheel:
+        my_robot/rear_left_wheel:
           Value: true
-        rear_right_wheel:
+        my_robot/rear_right_wheel:
           Value: true
       Marker Scale: 0.30000001192092896
       Name: TF
@@ -109,23 +109,23 @@ Visualization Manager:
       Show Axes: true
       Show Names: true
       Tree:
-        odom:
-          base_footprint:
-            base_link:
-              front_left_wheel:
+        my_robot/odom:
+          my_robot/base_footprint:
+            my_robot/base_link:
+              my_robot/front_left_wheel:
                 {}
-              front_right_wheel:
+              my_robot/front_right_wheel:
                 {}
-              rear_left_wheel:
+              my_robot/rear_left_wheel:
                 {}
-              rear_right_wheel:
+              my_robot/rear_right_wheel:
                 {}
       Update Interval: 0
       Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
-    Fixed Frame: odom
+    Fixed Frame: my_robot/odom
     Frame Rate: 30
   Name: root
   Tools:

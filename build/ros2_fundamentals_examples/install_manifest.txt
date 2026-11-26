@@ -1,0 +1,1 @@
+/home/spotless/ros2_ws2/install/ros2_fundamentals_examples/lib/ros2_fundamentals_examples/ros2_fundamentals_examples/__init__.py

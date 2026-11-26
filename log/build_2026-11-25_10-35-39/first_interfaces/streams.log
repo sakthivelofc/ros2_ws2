@@ -1,0 +1,244 @@
+[0.020s] Invoking command in '/home/spotless/ros2_ws2/build/first_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spotless/spotbot_ws/install/tower_bot_perception:/home/spotless/spotbot_ws/install/tower_bot_mqtt:/home/spotless/spotbot_ws/install/tower_bot_gui:/home/spotless/spotbot_ws/install/tower_bot_control:/home/spotless/spotbot_ws/install/tower_bot_api:/home/spotless/ynot_ws/install/led_project:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/spotless/ros2_ws2/src/first_interfaces -DCMAKE_INSTALL_PREFIX=/home/spotless/ros2_ws2/install/first_interfaces
+[0.072s] -- The C compiler identification is GNU 13.3.0
+[0.122s] -- The CXX compiler identification is GNU 13.3.0
+[0.137s] -- Detecting C compiler ABI info
+[0.225s] -- Detecting C compiler ABI info - done
+[0.232s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.232s] -- Detecting C compile features
+[0.233s] -- Detecting C compile features - done
+[0.242s] -- Detecting CXX compiler ABI info
+[0.342s] -- Detecting CXX compiler ABI info - done
+[0.350s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.350s] -- Detecting CXX compile features
+[0.350s] -- Detecting CXX compile features - done
+[0.358s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.552s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.715s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.732s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.833s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.925s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.470s] -- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.869s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.362s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.370s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.491s] -- Found PythonExtra: /usr/bin/python3  
+[2.882s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.939s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.947s] -- Configuring done (2.9s)
+[2.981s] -- Generating done (0.0s)
+[2.992s] -- Build files have been written to: /home/spotless/ros2_ws2/build/first_interfaces
+[3.001s] Invoked command in '/home/spotless/ros2_ws2/build/first_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spotless/spotbot_ws/install/tower_bot_perception:/home/spotless/spotbot_ws/install/tower_bot_mqtt:/home/spotless/spotbot_ws/install/tower_bot_gui:/home/spotless/spotbot_ws/install/tower_bot_control:/home/spotless/spotbot_ws/install/tower_bot_api:/home/spotless/ynot_ws/install/led_project:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/spotless/ros2_ws2/src/first_interfaces -DCMAKE_INSTALL_PREFIX=/home/spotless/ros2_ws2/install/first_interfaces
+[3.002s] Invoking command in '/home/spotless/ros2_ws2/build/first_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spotless/spotbot_ws/install/tower_bot_perception:/home/spotless/spotbot_ws/install/tower_bot_mqtt:/home/spotless/spotbot_ws/install/tower_bot_gui:/home/spotless/spotbot_ws/install/tower_bot_control:/home/spotless/spotbot_ws/install/tower_bot_api:/home/spotless/ynot_ws/install/led_project:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/spotless/ros2_ws2/build/first_interfaces -- -j12 -l12
+[3.062s] [  5%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[3.062s] [  5%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[3.073s] [  5%] Built target ament_cmake_python_copy_first_interfaces
+[3.230s] [  5%] Built target first_interfaces__rosidl_generator_type_description
+[3.243s] [  8%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.255s] [ 11%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.255s] [ 11%] Built target first_interfaces__rs
+[3.307s] running egg_info
+[3.308s] creating first_interfaces.egg-info
+[3.328s] writing first_interfaces.egg-info/PKG-INFO
+[3.328s] writing dependency_links to first_interfaces.egg-info/dependency_links.txt
+[3.328s] writing top-level names to first_interfaces.egg-info/top_level.txt
+[3.329s] writing manifest file 'first_interfaces.egg-info/SOURCES.txt'
+[3.396s] reading manifest file 'first_interfaces.egg-info/SOURCES.txt'
+[3.399s] writing manifest file 'first_interfaces.egg-info/SOURCES.txt'
+[3.442s] [ 11%] Built target ament_cmake_python_build_first_interfaces_egg
+[3.483s] [ 11%] Built target first_interfaces__cpp
+[3.498s] [ 20%] [32mBuilding C object CMakeFiles/first_interfaces__rosidl_generator_c.dir/rosidl_generator_c/first_interfaces/srv/detail/add_two_numbers__functions.c.o[0m
+[3.498s] [ 20%] [32mBuilding C object CMakeFiles/first_interfaces__rosidl_generator_c.dir/rosidl_generator_c/first_interfaces/srv/detail/add_two_numbers__description.c.o[0m
+[3.498s] [ 20%] [32mBuilding C object CMakeFiles/first_interfaces__rosidl_generator_c.dir/rosidl_generator_c/first_interfaces/srv/detail/add_two_numbers__type_support.c.o[0m
+[3.560s] [ 22%] [32m[1mLinking C shared library libfirst_interfaces__rosidl_generator_c.so[0m
+[3.599s] [ 22%] Built target first_interfaces__rosidl_generator_c
+[3.611s] [ 40%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.611s] [ 40%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.611s] [ 40%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.611s] [ 40%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.611s] [ 40%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.611s] [ 40%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.802s] [ 42%] [32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/first_interfaces/srv/add_two_numbers__type_support.cpp.o[0m
+[3.810s] [ 45%] [32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/first_interfaces/srv/add_two_numbers__type_support.cpp.o[0m
+[3.832s] [ 51%] [32mBuilding C object CMakeFiles/first_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/first_interfaces/srv/detail/add_two_numbers__type_support.c.o[0m
+[3.832s] [ 51%] [32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/first_interfaces/srv/detail/add_two_numbers__type_support.cpp.o[0m
+[3.848s] [ 54%] [32m[1mLinking CXX shared library libfirst_interfaces__rosidl_typesupport_c.so[0m
+[3.854s] [ 57%] [32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/first_interfaces/srv/detail/dds_fastrtps/add_two_numbers__type_support.cpp.o[0m
+[3.866s] [ 60%] [32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/first_interfaces/srv/detail/add_two_numbers__type_support_c.cpp.o[0m
+[3.877s] [ 62%] [32m[1mLinking C shared library libfirst_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.893s] [ 62%] Built target first_interfaces__rosidl_typesupport_c
+[3.918s] [ 62%] Built target first_interfaces__rosidl_typesupport_introspection_c
+[4.137s] [ 65%] [32m[1mLinking CXX shared library libfirst_interfaces__rosidl_typesupport_cpp.so[0m
+[4.175s] [ 68%] [32m[1mLinking CXX shared library libfirst_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.234s] [ 68%] Built target first_interfaces__rosidl_typesupport_cpp
+[4.262s] [ 68%] Built target first_interfaces__rosidl_typesupport_introspection_cpp
+[4.289s] [ 71%] [32m[1mLinking CXX shared library libfirst_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.341s] [ 71%] Built target first_interfaces__rosidl_typesupport_fastrtps_c
+[4.352s] [ 74%] [32m[1mLinking CXX shared library libfirst_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.420s] [ 74%] Built target first_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.444s] [ 74%] Built target first_interfaces
+[4.467s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.728s] [ 77%] Built target first_interfaces__py
+[4.752s] [ 80%] [32mBuilding C object CMakeFiles/first_interfaces__rosidl_generator_py.dir/rosidl_generator_py/first_interfaces/srv/_add_two_numbers_s.c.o[0m
+[4.871s] [ 82%] [32m[1mLinking C shared library libfirst_interfaces__rosidl_generator_py.so[0m
+[4.917s] [ 82%] Built target first_interfaces__rosidl_generator_py
+[4.941s] [ 91%] [32mBuilding C object CMakeFiles/first_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/first_interfaces/_first_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.941s] [ 91%] [32mBuilding C object CMakeFiles/first_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/first_interfaces/_first_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.941s] [ 91%] [32mBuilding C object CMakeFiles/first_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/first_interfaces/_first_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.030s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/first_interfaces/first_interfaces_s__rosidl_typesupport_c.so[0m
+[5.030s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/first_interfaces/first_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[5.036s] [100%] [32m[1mLinking C shared module rosidl_generator_py/first_interfaces/first_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[5.064s] [100%] Built target first_interfaces_s__rosidl_typesupport_introspection_c
+[5.064s] [100%] Built target first_interfaces_s__rosidl_typesupport_c
+[5.071s] [100%] Built target first_interfaces_s__rosidl_typesupport_fastrtps_c
+[5.085s] Invoked command in '/home/spotless/ros2_ws2/build/first_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spotless/spotbot_ws/install/tower_bot_perception:/home/spotless/spotbot_ws/install/tower_bot_mqtt:/home/spotless/spotbot_ws/install/tower_bot_gui:/home/spotless/spotbot_ws/install/tower_bot_control:/home/spotless/spotbot_ws/install/tower_bot_api:/home/spotless/ynot_ws/install/led_project:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/spotless/ros2_ws2/build/first_interfaces -- -j12 -l12
+[5.086s] Invoking command in '/home/spotless/ros2_ws2/build/first_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spotless/spotbot_ws/install/tower_bot_perception:/home/spotless/spotbot_ws/install/tower_bot_mqtt:/home/spotless/spotbot_ws/install/tower_bot_gui:/home/spotless/spotbot_ws/install/tower_bot_control:/home/spotless/spotbot_ws/install/tower_bot_api:/home/spotless/ynot_ws/install/led_project:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/spotless/ros2_ws2/build/first_interfaces
+[5.096s] -- Install configuration: ""
+[5.096s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/ament_index/resource_index/rosidl_interfaces/first_interfaces
+[5.097s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/srv/AddTwoNumbers.json
+[5.097s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces
+[5.097s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces/srv
+[5.097s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail
+[5.097s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_two_numbers__functions.c
+[5.097s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_two_numbers__functions.h
+[5.098s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_two_numbers__struct.h
+[5.098s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_two_numbers__type_support.c
+[5.098s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_two_numbers__type_support.h
+[5.098s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_two_numbers__description.c
+[5.098s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces/srv/add_two_numbers.h
+[5.098s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces/msg
+[5.099s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.099s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/environment/library_path.sh
+[5.099s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/environment/library_path.dsv
+[5.099s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/lib/libfirst_interfaces__rosidl_generator_c.so
+[5.100s] -- Set non-toolchain portion of runtime path of "/home/spotless/ros2_ws2/install/first_interfaces/lib/libfirst_interfaces__rosidl_generator_c.so" to ""
+[5.100s] -- Up-to-date: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces
+[5.100s] -- Up-to-date: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces/srv
+[5.100s] -- Up-to-date: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail
+[5.100s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_two_numbers__rosidl_typesupport_fastrtps_c.h
+[5.100s] -- Up-to-date: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces/msg
+[5.100s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.100s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.101s] -- Set non-toolchain portion of runtime path of "/home/spotless/ros2_ws2/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[5.101s] -- Up-to-date: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces
+[5.101s] -- Up-to-date: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces/srv
+[5.101s] -- Up-to-date: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail
+[5.101s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_two_numbers__rosidl_typesupport_introspection_c.h
+[5.101s] -- Up-to-date: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_two_numbers__type_support.c
+[5.101s] -- Up-to-date: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces/msg
+[5.101s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.102s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_introspection_c.so
+[5.102s] -- Set non-toolchain portion of runtime path of "/home/spotless/ros2_ws2/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[5.102s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_c.so
+[5.102s] -- Set non-toolchain portion of runtime path of "/home/spotless/ros2_ws2/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_c.so" to ""
+[5.102s] -- Up-to-date: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces
+[5.103s] -- Up-to-date: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces/srv
+[5.103s] -- Up-to-date: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail
+[5.103s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_two_numbers__traits.hpp
+[5.103s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_two_numbers__builder.hpp
+[5.103s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_two_numbers__type_support.hpp
+[5.103s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_two_numbers__struct.hpp
+[5.103s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces/srv/add_two_numbers.hpp
+[5.103s] -- Up-to-date: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces/msg
+[5.103s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.103s] -- Up-to-date: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces
+[5.104s] -- Up-to-date: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces/srv
+[5.104s] -- Up-to-date: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail
+[5.104s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/dds_fastrtps
+[5.104s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_two_numbers__rosidl_typesupport_fastrtps_cpp.hpp
+[5.104s] -- Up-to-date: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces/msg
+[5.104s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.104s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.105s] -- Set non-toolchain portion of runtime path of "/home/spotless/ros2_ws2/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.105s] -- Up-to-date: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces
+[5.105s] -- Up-to-date: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces/srv
+[5.105s] -- Up-to-date: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail
+[5.105s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_two_numbers__type_support.cpp
+[5.105s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/include/first_interfaces/first_interfaces/srv/detail/add_two_numbers__rosidl_typesupport_introspection_cpp.hpp
+[5.105s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.106s] -- Set non-toolchain portion of runtime path of "/home/spotless/ros2_ws2/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[5.106s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_cpp.so
+[5.106s] -- Set non-toolchain portion of runtime path of "/home/spotless/ros2_ws2/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_cpp.so" to ""
+[5.106s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/environment/pythonpath.sh
+[5.106s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/environment/pythonpath.dsv
+[5.106s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/lib/python3.12/site-packages/first_interfaces-0.0.0-py3.12.egg-info
+[5.107s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/lib/python3.12/site-packages/first_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[5.107s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/lib/python3.12/site-packages/first_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[5.107s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/lib/python3.12/site-packages/first_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[5.107s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/lib/python3.12/site-packages/first_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[5.107s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/lib/python3.12/site-packages/first_interfaces
+[5.107s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/srv
+[5.107s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/srv/_add_two_numbers_s.c
+[5.107s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/srv/_add_two_numbers.py
+[5.108s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/srv/__init__.py
+[5.108s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_c.so
+[5.108s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/_first_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[5.108s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/_first_interfaces_s.ep.rosidl_typesupport_c.c
+[5.108s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_introspection_c.so
+[5.108s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/__init__.py
+[5.109s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[5.109s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/_first_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.143s] Listing '/home/spotless/ros2_ws2/install/first_interfaces/lib/python3.12/site-packages/first_interfaces'...
+[5.144s] Compiling '/home/spotless/ros2_ws2/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/__init__.py'...
+[5.144s] Listing '/home/spotless/ros2_ws2/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/srv'...
+[5.144s] Compiling '/home/spotless/ros2_ws2/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/srv/__init__.py'...
+[5.144s] Compiling '/home/spotless/ros2_ws2/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/srv/_add_two_numbers.py'...
+[5.148s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[5.148s] -- Set non-toolchain portion of runtime path of "/home/spotless/ros2_ws2/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[5.148s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_introspection_c.so
+[5.149s] -- Set non-toolchain portion of runtime path of "/home/spotless/ros2_ws2/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[5.149s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_c.so
+[5.149s] -- Set non-toolchain portion of runtime path of "/home/spotless/ros2_ws2/install/first_interfaces/lib/python3.12/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_c.so" to ""
+[5.149s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/lib/libfirst_interfaces__rosidl_generator_py.so
+[5.150s] -- Set non-toolchain portion of runtime path of "/home/spotless/ros2_ws2/install/first_interfaces/lib/libfirst_interfaces__rosidl_generator_py.so" to ""
+[5.150s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/ament_index/resource_index/rust_packages/first_interfaces
+[5.150s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/rust
+[5.150s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/rust/build.rs
+[5.150s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/rust/src
+[5.150s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/rust/src/srv
+[5.150s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/rust/src/srv/rmw.rs
+[5.151s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/rust/src/srv.rs
+[5.151s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/rust/src/lib.rs
+[5.151s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/rust/Cargo.toml
+[5.151s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/srv/AddTwoNumbers.idl
+[5.151s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/srv/AddTwoNumbers.srv
+[5.151s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/ament_index/resource_index/package_run_dependencies/first_interfaces
+[5.151s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/ament_index/resource_index/parent_prefix_path/first_interfaces
+[5.151s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/environment/ament_prefix_path.sh
+[5.152s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/environment/ament_prefix_path.dsv
+[5.152s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/environment/path.sh
+[5.152s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/environment/path.dsv
+[5.152s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/local_setup.bash
+[5.152s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/local_setup.sh
+[5.152s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/local_setup.zsh
+[5.152s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/local_setup.dsv
+[5.153s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/package.dsv
+[5.153s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/ament_index/resource_index/packages/first_interfaces
+[5.153s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/cmake/export_first_interfaces__rosidl_generator_cExport.cmake
+[5.153s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/cmake/export_first_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.153s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/cmake/export_first_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.153s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/cmake/export_first_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.153s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.154s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.154s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_cExport.cmake
+[5.154s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.154s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/cmake/export_first_interfaces__rosidl_generator_cppExport.cmake
+[5.154s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/cmake/export_first_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.154s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/cmake/export_first_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.154s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.155s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.155s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_cppExport.cmake
+[5.155s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.155s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/cmake/export_first_interfaces__rosidl_generator_pyExport.cmake
+[5.155s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/cmake/export_first_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.155s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.155s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.155s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.156s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.156s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.156s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.156s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.156s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[5.156s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/cmake/first_interfacesConfig.cmake
+[5.156s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/cmake/first_interfacesConfig-version.cmake
+[5.157s] -- Installing: /home/spotless/ros2_ws2/install/first_interfaces/share/first_interfaces/package.xml
+[5.159s] Invoked command in '/home/spotless/ros2_ws2/build/first_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spotless/spotbot_ws/install/tower_bot_perception:/home/spotless/spotbot_ws/install/tower_bot_mqtt:/home/spotless/spotbot_ws/install/tower_bot_gui:/home/spotless/spotbot_ws/install/tower_bot_control:/home/spotless/spotbot_ws/install/tower_bot_api:/home/spotless/ynot_ws/install/led_project:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/spotless/ros2_ws2/build/first_interfaces

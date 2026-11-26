@@ -30,28 +30,34 @@ def generate_launch_description():
     return LaunchDescription([
 
         # Robot State Publisher
+        # Namespace + frame prefix keep this robot off SpotBot Lite's
+        # /robot_description topic and base_link / odom frames.
         Node(
             package='robot_state_publisher',
             executable='robot_state_publisher',
+            namespace='my_robot',
             parameters=[{
-                'robot_description': robot_description
+                'robot_description': robot_description,
+                'frame_prefix': 'my_robot/',
             }]
         ),
 
-        # Provide odom -> base_link so RViz Fixed Frame "odom" works without Gazebo
         Node(
             package='tf2_ros',
             executable='static_transform_publisher',
             arguments=[
-                '--frame-id', 'odom',
-                '--child-frame-id', 'base_footprint',
+                '--frame-id', 'my_robot/odom',
+                '--child-frame-id', 'my_robot/base_footprint',
             ],
         ),
 
-        # Joint State Publisher GUI
         Node(
             package='joint_state_publisher_gui',
-            executable='joint_state_publisher_gui'
+            executable='joint_state_publisher_gui',
+            namespace='my_robot',
+            parameters=[{
+                'robot_description': robot_description,
+            }]
         ),
 
         # RViz with RobotModel

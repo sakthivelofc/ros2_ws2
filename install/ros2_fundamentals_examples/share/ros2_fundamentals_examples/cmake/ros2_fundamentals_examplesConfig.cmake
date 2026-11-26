@@ -1,0 +1,1 @@
+/home/spotless/ros2_ws2/build/ros2_fundamentals_examples/ament_cmake_core/ros2_fundamentals_examplesConfig.cmake

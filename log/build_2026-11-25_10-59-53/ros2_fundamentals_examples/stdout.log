@@ -1,0 +1,29 @@
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/spotless/ros2_ws2/build/ros2_fundamentals_examples
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/spotless/ros2_ws2/install/ros2_fundamentals_examples/lib/ros2_fundamentals_examples/py_minimal_publisher.py
+-- Symlinking: /home/spotless/ros2_ws2/install/ros2_fundamentals_examples/lib/ros2_fundamentals_examples/py_minimal_subscriber.py
+-- Symlinking: /home/spotless/ros2_ws2/install/ros2_fundamentals_examples/lib/ros2_fundamentals_examples/py_minimal_service_server.py
+-- Symlinking: /home/spotless/ros2_ws2/install/ros2_fundamentals_examples/lib/ros2_fundamentals_examples/py_minimal_service_client.py
+-- Symlinking: /home/spotless/ros2_ws2/install/ros2_fundamentals_examples/share/ament_index/resource_index/package_run_dependencies/ros2_fundamentals_examples
+-- Symlinking: /home/spotless/ros2_ws2/install/ros2_fundamentals_examples/share/ament_index/resource_index/parent_prefix_path/ros2_fundamentals_examples
+-- Symlinking: /home/spotless/ros2_ws2/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/environment/ament_prefix_path.sh
+-- Symlinking: /home/spotless/ros2_ws2/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/environment/ament_prefix_path.dsv
+-- Symlinking: /home/spotless/ros2_ws2/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/environment/path.sh
+-- Symlinking: /home/spotless/ros2_ws2/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/environment/path.dsv
+-- Symlinking: /home/spotless/ros2_ws2/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/local_setup.bash
+-- Symlinking: /home/spotless/ros2_ws2/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/local_setup.sh
+-- Symlinking: /home/spotless/ros2_ws2/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/local_setup.zsh
+-- Symlinking: /home/spotless/ros2_ws2/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/local_setup.dsv
+-- Symlinking: /home/spotless/ros2_ws2/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/package.dsv
+-- Symlinking: /home/spotless/ros2_ws2/install/ros2_fundamentals_examples/share/ament_index/resource_index/packages/ros2_fundamentals_examples
+-- Symlinking: /home/spotless/ros2_ws2/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/cmake/ros2_fundamentals_examplesConfig.cmake
+-- Symlinking: /home/spotless/ros2_ws2/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/cmake/ros2_fundamentals_examplesConfig-version.cmake
+-- Symlinking: /home/spotless/ros2_ws2/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/package.xml
+-- Up-to-date: /home/spotless/ros2_ws2/install/ros2_fundamentals_examples/lib/ros2_fundamentals_examples/ros2_fundamentals_examples
+-- Up-to-date: /home/spotless/ros2_ws2/install/ros2_fundamentals_examples/lib/ros2_fundamentals_examples/ros2_fundamentals_examples/__pycache__
+-- Up-to-date: /home/spotless/ros2_ws2/install/ros2_fundamentals_examples/lib/ros2_fundamentals_examples/ros2_fundamentals_examples/__init__.py

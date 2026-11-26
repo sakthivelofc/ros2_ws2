@@ -1,0 +1,1 @@
+/home/spotless/ros2_ws2/src/ros2_fundamentals_examples/scripts/py_minimal_service_client.py
